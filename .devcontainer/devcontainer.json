@@ -1,8 +1,5 @@
 {
-  "name": "CTF Lab",
+  "name": "Ubuntu Dev",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
-  },
-  "postCreateCommand": "sudo apt update && sudo apt install -y curl nmap netcat python3-pip git vim"
+  "postCreateCommand": "sudo apt update && sudo apt install -y curl nmap netcat"
 }
